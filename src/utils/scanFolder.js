@@ -1,5 +1,7 @@
 const AUDIO_EXTENSIONS = new Set([
   '.mp3', '.flac', '.wav', '.ogg', '.m4a', '.aac',
+  '.opus', '.webm', '.aiff', '.aif', '.wma', '.alac',
+  '.ape', '.wv', '.tta', '.dsf', '.dff', '.mpc',
 ])
 
 export async function scanFolder(directoryHandle) {
